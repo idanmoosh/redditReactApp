@@ -1,0 +1,123 @@
+.postWrapper {
+    display: flex;
+    justify-content: center;
+    border: 1px solid gray;
+    margin: 1rem;
+    border-radius: 1%;
+    box-shadow: 2px 2px gray;
+  }
+
+  .postContainer {
+    width: 65%;
+  }
+
+  .postDetails {
+    margin-top: var(--spacing-2);
+    border-top: 1px solid var(--color-border);
+    padding-top: var(--spacing-1);
+    font-size: 0.75rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .postDetails .authorUsername {
+    color: var(--color-branding);
+    font-weight: bold;
+  }
+
+  .postImageContainer {
+    width: 15;
+    overflow: hidden;
+    border-radius: var(--radius-2);
+  }
+
+  .postImageContainer .postImage {
+    width: 100%;
+  }
+
+  .postTitle {
+    margin: 0;
+    margin-bottom: var(--spacing-2);
+    color: var(--color-text-header);
+  }
+
+
+  .postVotesContainer {
+    padding-right: 2rem;
+    margin-right: var(--spacing-3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .iconAction {
+    font-size: 1.5rem;
+  }
+
+  .postVotesContainer .postVotesValue {
+    margin: var(--spacing-1) 0;
+    font-weight: bold;
+  }
+
+  .postVotesValue.upVote {
+    color: var(--color-success) !important;
+  }
+
+  .postVotesValue.downVote {
+    color: var(--color-alert) !important;
+  }
+
+  .upVote:hover {
+    color: var(--color-success) !important;
+  }
+
+  .upVote.active {
+    color: var(--color-success) !important;
+  }
+
+  .downVote:hover {
+    color: var(--color-alert) !important;
+  }
+
+  .downVote.active {
+    color: var(--color-alert) !important;
+  }
+
+  .iconActionButton {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: var(--color-text-secondary);
+    padding: 0;
+    display: flex;
+    align-items: center;
+    border-radius: var(--radius);
+  }
+
+  .iconActionButton:hover {
+    background: var(--color-on-hover);
+  }
+
+  .postCommentsContainer {
+    display: flex;
+    align-items: center;
+  }
+
+  .postCommentsContainer  {
+    margin-right: var(--spacing-0);
+  }
+  .iconAction {
+    margin-right: var(--spacing-0);
+
+  }
+
+  .authorDetails {
+    display: flex;
+    align-items: center;
+  }
+
+  .showingComments {
+    color: var(--color-branding);
+  }

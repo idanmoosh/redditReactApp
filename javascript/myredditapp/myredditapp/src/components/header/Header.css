@@ -1,0 +1,23 @@
+.Header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    border-bottom: 2px solid rgb(76, 76, 76);
+    padding-right: 1rem;
+}
+.HeaderLogo{
+    height: 3rem;
+    width: 3rem;
+    padding-left: 1rem;
+}
+.HeaderName{
+    padding-right: 2rem;
+    color: rgb(76, 76, 76);
+}
+.searchInput{
+    height: 1rem;
+}
+.searchButton{
+    height: 1.5rem;
+}
